@@ -7,5 +7,7 @@ export class ListNode<K, V> {
   constructor(
     readonly key: K,
     public value: V,
+    /** Epoch milliseconds after which the entry is expired, or null for no expiry. */
+    public expiresAt: number | null = null,
   ) {}
 }
