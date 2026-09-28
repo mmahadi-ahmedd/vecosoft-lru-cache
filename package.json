@@ -6,7 +6,8 @@
   "scripts": {
     "demo": "tsx src/demo.ts",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "demo:ttl": "tsx src/demoTtl.ts"
   },
   "keywords": [],
   "author": "",
